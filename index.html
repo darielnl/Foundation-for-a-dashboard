@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexEd Dashboard</title>
+
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- Header -->
+        <header class="grid-x grid-padding-x align-middle">
+            <div class="cell small-12 medium-6">
+                <h1 class="header-title">Bit Academy</h1>
+            </div>
+            <div class="cell small-12 medium-6 text-right">
+                <nav class="top-nav">
+                    <a href="#" class="button">Home</a>
+                    <a href="#" class="button">Universe</a>
+                    <a href="#" class="button">Reviews</a>
+                    <a href="#" class="button">Ontwikkeling</a>
+                </nav>
+                <div class="level-info">
+                    <span>Level 14 - 68%</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main>
+            <div class="grid-x grid-padding-x">
+                <!-- Weekdoelen Section -->
+                <section class="cell small-12 medium-6">
+                    <h2>Mijn Weekdoelen</h2>
+                    <div class="button-group">
+                        <button class="button">Vorige Week</button>
+                        <button class="button">Volgende Week</button>
+                    </div>
+                    <div class="goal-input mt-3">
+                        <input type="text" class="input-group-field" placeholder="Doel 1*" id="goal-input">
+                        <button class="button success">Opslaan</button>
+                    </div>
+                </section>
+
+                <!-- Rooster Section -->
+                <section class="cell small-12 medium-6">
+                    <h2>Rooster Deze Week</h2>
+                    <table class="stack">
+                        <thead>
+                            <tr>
+                                <th>7:00</th>
+                                <th>8:00</th>
+                                <th>9:00</th>
+                                <th>10:00</th>
+                                <th>11:00</th>
+                                <th>12:00</th>
+                                <th>13:00</th>
+                                <th>14:00</th>
+                                <th>15:00</th>
+                                <th>16:00</th>
+                                <th>17:00</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Deep Dive</td>
+                                <td>Deep Dive</td>
+                                <td>Programmeren</td>
+                                <td>LOB - A</td>
+                                <td>Programmeren</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+            <!-- Badges and Streak Section -->
+            <div class="grid-x grid-padding-x">
+                <section class="cell small-12 medium-6">
+                    <h2>Mijn Laatste Badges</h2>
+                    <div class="badge mb-3">
+                        <img src="https://app.nexed.com/badges/v1/images/874892731-perfect-module/perfect-module.png"
+                            alt="Badge 1" class="thumbnail" width="60">
+                        <p>Perfect Module<br><span class="badge-text">Onaantastbaar</span></p>
+                    </div>
+                    <div class="badge">
+                        <img src="badge2.png" alt="Badge 2" class="thumbnail" width="60">
+                        <p>Exercise Boss<br><span class="badge-text">Exercise Adventurer</span></p>
+                    </div>
+                </section>
+
+                <section class="cell small-12 medium-6">
+                    <h2>Streak</h2>
+                    <p>Voltooi elke dag een exercise of commit op je streak!</p>
+                    <div class="streak">
+                        <span class="active">Ma</span>
+                        <span class="active">Di</span>
+                        <span class="active">Wo</span>
+                        <span>Do</span>
+                        <span>Vr</span>
+                        <span>Za</span>
+                        <span>Zo</span>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Skills Section -->
+            <section class="cell small-12">
+                <h2>Programming Skills</h2>
+                <img src="radar-chart.png" alt="Radar Chart" class="thumbnail">
+            </section>
+
+            <!-- Attendance Section -->
+            <section class="cell small-12">
+                <h2>Mijn Aanwezigheid (30 Dagen)</h2>
+                <img src="donut-chart.png" alt="Attendance Chart" class="thumbnail">
+            </section>
+
+            <!-- Exercises Section -->
+            <section class="cell small-12">
+                <h2>Recente Exercises</h2>
+                <table class="stack">
+                    <thead>
+                        <tr>
+                            <th>Naam</th>
+                            <th>Laatste Actie</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foundation for a Dashboard</td>
+                            <td>7 minuten geleden</td>
+                            <td><span class="badge alert">In Progress</span></td>
+                        </tr>
+                        <tr>
+                            <td>Gaming Data</td>
+                            <td>2 maanden geleden</td>
+                            <td><span class="badge alert">In Progress</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tailwind CSS</td>
+                            <td>1 dag geleden</td>
+                            <td><span class="badge success">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Bulma</td>
+                            <td>2 dagen geleden</td>
+                            <td><span class="badge success">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>2 dagen geleden</td>
+                            <td><span class="badge success">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+    <!-- Foundation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

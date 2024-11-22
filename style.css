@@ -1,0 +1,111 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.top-nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #003366;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top-nav a:hover {
+    background-color: #00509e;
+}
+
+.level-info {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* Weekdoelen */
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.goal-input input {
+    width: 80%;
+    padding: 10px;
+}
+
+.button-group button {
+    background-color: #003366;
+}
+
+.button-group button:hover {
+    background-color: #00509e;
+}
+
+/* Rooster */
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Badges & Streak */
+.badge img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.badge-text {
+    font-weight: bold;
+    color: #003366;
+}
+
+.streak span {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.streak .active {
+    background-color: #29a745;
+    color: white;
+}
+
+/* Skills */
+.thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Exercises */
+.badge.alert {
+    background-color: #ffcc00;
+    padding: 5px 10px;
+}
+
+.badge.success {
+    background-color: #28a745;
+    padding: 5px 10px;
+}
